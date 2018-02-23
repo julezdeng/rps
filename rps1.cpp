@@ -1,26 +1,8 @@
-//Objective:  Play rock, paper, scissors
-//Name: Julie Deng
-//Course: COMSC-110-1021
-//Compiler: TDM MinGW
-//Editor: MS NotePad
-
 //libraries
 #include <iostream>
 using namespace std;
 #include <cstdlib> 
 #include <ctime>
-
-//Programmer defined data types
-//NONE
-
-//Special compiler dependent definitions
-//NONE
-
-//global constants/variables
-//NONE
-
-//Programmer defined functions
-//NONE
 
 //main program
 int main()
@@ -28,14 +10,6 @@ int main()
   //initialize random number generator
   srand(time(0));
   rand() % 3;
-
-  //output my name and objective and program information
-  cout << "Objective: This program will play rock, paper, scissors.\n"; 
-  cout << "Programmer: Julie Deng\n"; 
-  cout << "Editor(s) used: Notepad\n"; 
-  cout << "Compiler(s) used: TDM MinGW\n"; 
-  cout << "File: " << __FILE__ << endl; 
-  cout << "Compiled: " << __DATE__ << " at " << __TIME__ << endl << endl; 
 
   //Data
   char userPlay = 'W'; //user's move
